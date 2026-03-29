@@ -16,7 +16,7 @@ This pipeline automates the entire simulation setup in five main stages:
 ## File Structure & Functions
 `master.py`: The central controller. Orchestrates the execution of all sub-scripts in the correct order.  
 `build_monolayer.py`: Extracts a single layer from a bulk CIF file and expands it into a supercell.  
-`create_nanopore.py`: Deletes carbon atoms within a radius and passivates the broken bonds with Hydrogen.  
+`create_nanopore.py`: A parameterized tool for generating H-passivated graphene nanopores with controllable pore geometries.   
 `add_mol.py`: Inserts the gas molecule and assigns specific Atom Types for LAMMPS.  
 `make_input.py`: Generates LAMMPS input scripts.
 ## Usage
