@@ -16,7 +16,7 @@ This pipeline automates the entire simulation setup in four main stages:
 `master.py`: The central controller. Orchestrates the execution of all sub-scripts in the correct order.  
 `build_monolayer.py`: Extracts a single layer from a bulk CIF/data file and expands it into a supercell.  
 `create_nanopore.py`: Deletes carbon atoms within a radius and passivates the broken bonds with Hydrogen.  
-`add_mol.py`: Inserts the gas molecule and assigns specific Atom Types for LAMMPS.
+`add_mol.py`: Inserts the gas molecule and assigns specific Atom Types for LAMMPS.  
 `make_input.py`: produce input file for LAMMPS.
 ## Usage
 Place your Graphite.cif in the project directory and run the master script:
