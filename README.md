@@ -7,7 +7,7 @@ pip install ase
 conda install -c conda-forge lammps
 ```
 ## Workflow Overview
-This pipeline automates the entire simulation setup in four main stages:  
+This pipeline automates the entire simulation setup in five main stages:  
 1. **System Generation**: Converts a graphite CIF file into a passivated monolayer graphene sheet with a central nanopore.  
 2. **Molecular Assembly**: Automatically identifies the pore center and inserts a gas molecule (Ar, CH4, N2, H2, or CO2) at a specified distance.  
 3. **Forcefield Mapping**: Applies Lorentz-Berthelot mixing rules to generate precise non-bonded interaction parameters between the gas and the graphene/hydrogen atoms.  
